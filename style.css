@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: #c26ffe4d;
+}
+h1{
+    background-color: #a526ffc6;
+    color: white;
+    height: 4rem;
+    text-align: center;
+    line-height: 4rem;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 10rem;
+    margin-bottom: 2rem;
+}
+#user-score, #comp-score{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.choices{
+    display: flex;
+    justify-content: space-evenly;
+}
+.choice{
+    height: 300px;
+    width: 250px;
+    border-radius: 50%;
+    text-align: center;
+}
+img:hover{
+    scale: 1.1;
+    /* box-shadow: 3px 3px 3px gray, -3px -3px 3px gray; */
+}
+img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+.signs{
+    text-align: center;
+    border: 4px solid #601155;
+    text-shadow: 2px 2px 3px #601155, -2px -2px 3px #601155;
+}
+.rock-sign{
+    font-size: 2.5rem;
+    background-color: #ef5480;
+    color: white;
+    border-radius: 22px;
+    display: inline;
+    padding-inline: 1.5rem;
+}
+.paper-sign{
+    font-size: 2.5rem;
+    background-color: #ffde55;
+    color: white;
+    border-radius: 22px;
+    display: inline;
+    padding-inline: 1rem;
+}
+.scissors-sign{
+    font-size: 2.5rem;
+    background-color: #74dae2;
+    color: white;
+    border-radius: 22px;
+    display: inline;
+    padding-inline: 1rem;
+}
+.msg-container{
+    margin-top: 5rem;
+    text-align: center;
+}
+#msg{
+    background-color: black;
+    color: white;
+    display: inline;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 1rem;
+}
